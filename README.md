@@ -2,19 +2,26 @@
 
 ## Overview of the Analysis
 
-Without utilizing a bank, investors can lend money to others using peer-to-peer lending networks. However, as investors are constantly striving to lower risk, you will develop and assess a number of machine-learning models to forecast credit risk using cost-free data provided by the peer-to-peer lending services. In the dataset are loans with a high probability of default.
+Without utilizing a bank, investors can lend money to others using peer-to-peer lending networks. However, as investors are constantly striving to lower risk, we have to develop and assess a number of machine-learning models to forecast credit risk using the data provided. This loan data is an excellent candidate for supervised learning because we already have the data for both healthy and high risk loans. The advantage of supervised learning is that, when the model has been set, we may use it to forecast fresh data. In other words, we can foretell whether loans will be profitable or not in the future.
+
+We are creating a toolkit of models based on data provided by a peer-to-peer lending organization and using supervised learning techniques to predict if a loan would default. To back up our prediction, we'll do the following:
+
+   * Create Training and Testing Sets for the Data
+   * With the original data, creating a logit regression model. 
+   * Logistic Regression Model Prediction Using Resampled Training Data
 
 ## Results
+* Modeling Logistic Regression Using the Original Data:
+  * Model accuracy is 95.2%
+  * Precision average 99%
+  * Recall average 99%
+  * F1 score average 100%
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* With resampled training data, a logistic regression model:
+  * Model accuracy is 95.2%
+  * Precision average 99%
+  * Recall average 99%
+  * F1 score average 100%.
 
 ## Summary
 
